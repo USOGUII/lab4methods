@@ -7,6 +7,7 @@ namespace Newt
     {
         public double[] Newts(double leftik, double rightik, double aik, double bik, double cik)
         {
+            Console.WriteLine($"Метод Ньютона:");
             double a = aik, b = bik, c = cik, d = -70, e = -10, f = 25, Accuracy1 = 0.0005, Accuracy2 = 0.005, left = leftik, right = rightik, M = 10;
             double[] leftk = new double[50];
             double[] rightk = new double[50];
